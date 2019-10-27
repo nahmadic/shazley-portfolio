@@ -13,14 +13,12 @@
       <div class="header__logo">
         <h1><a href="/">Stuart Hazley</a></h1>
       </div>
-      <div class="header__nav">
-        <nav class="navigation">
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/contact.php">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
+      <nav class="header__nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/contact.php">Contact</a></li>
+        </ul>
+      </nav>
     </header>
   </div>
 </body>

@@ -1,3 +1,8 @@
+:root {
+  --primary-color: #F55742;
+  --dark-color: #263333;
+}
+
 html {
   font-size: 100%;
 }
@@ -16,7 +21,7 @@ body {
   background-attachment: scroll;
   background-repeat: repeat;
   background-color: #fff;
-  color: #292623;
+  color: var(--dark-color);
   margin: 0;
 }
 
@@ -31,7 +36,9 @@ body {
 .header {
   padding: 0;
   position: relative;
-  display: block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header__logo {
@@ -52,6 +59,29 @@ body {
 }
 
 .header__logo a {
-  color: #263333;
+  color: var(--dark-color);
   text-decoration: none;
+}
+
+.header__nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header__nav li {
+  
+}
+
+.header__nav li:last-of-type {
+  margin-left: 30px;
+}
+
+.header__nav li a {
+  padding: 10px 0;
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 400;
+  letter-spacing: 1px;
 }
