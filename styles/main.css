@@ -1,10 +1,12 @@
 :root {
   --primary-color: #F55742;
   --dark-color: #263333;
+  --border-color: #f2f3f1;
 }
 
 html {
   font-size: 100%;
+  box-sizing: content-box;
 }
 
 body {
@@ -23,6 +25,11 @@ body {
   background-color: #fff;
   color: var(--dark-color);
   margin: 0;
+}
+
+p {
+  margin: 0 0 1.6em;
+  line-height: 1;
 }
 
 .page-wrapper {
@@ -89,8 +96,83 @@ body {
 .content {
   width: 100%;
   margin: 20px 0;
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
 }
 
 .content__inner {
+
+}
+
+.font {
+  display: flex;
+  padding: 17px 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.font:last-of-type {
+  border-bottom: none;
+}
+
+.font-number {
+  width: 8.3%;
+  box-sizing: border-box;
+  padding: 17px;
+}
+
+.font-number p {
+  text-align: right;
+  margin: 0;
+  font-size: 13px;
+  line-height: 1;
+  color: var(--primary-color);
+}
+
+.font-name {
+  width: 16.7%;
+  box-sizing: border-box;
+  padding: 17px;
+}
+
+.font-name__title {
+
+}
+
+.font-name__title p {
+  font-weight: 700;
+}
+
+.font-name__description {
+  
+}
+
+.font-name__description p {
+  font-size: 12px;
+  line-height: 13px;
+}
+
+.font-name__links {
+
+}
+
+.font-name__links a {
+  display: block;
+  color: var(--primary-color);
+  font-weight: 500;
+  text-decoration: none;
+  line-height: 1;
+}
+
+.font-details {
+  width: 75%;
+  box-sizing: border-box;
+  padding: 17px;
+}
+
+.font-details__demo {
+
+}
+
+.font-details__title {
 
 }

@@ -40,15 +40,15 @@
           </div>
           <div class="font-details">
             <div class="font-details__demo">
-              <h5>Ostent Heavy</h5>
+              <p class="font-details__title">Ostent Heavy</p>
               <p class="font--ostent-heavy">ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopstuvwxyz 0123456789</p>
             </div>
             <div class="font-details__demo">
-              <h5>Ostent Regular</h5>
+              <p class="font-details__title">Ostent Regular</p>
               <p class="font--ostent-regular">ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopstuvwxyz 0123456789</p>
             </div>
             <div class="font-details__demo">
-              <h5>Ostent Light</h5>
+              <p class="font-details__title">Ostent Light</p>
               <p class="font--ostent-light">ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopstuvwxyz 0123456789</p>
             </div>
           </div>
@@ -67,7 +67,7 @@
           </div>
           <div class="font-details">
             <div class="font-details__demo">
-              <h5>RB Insignia Regular</h5>
+              <p class="font-details__title">RB Insignia Regular</p>
               <p class="font--rb-logo">RB</p>
             </div>
           </div>
