@@ -176,3 +176,57 @@ p {
 .font-details__title {
 
 }
+
+.social {
+  padding: 17px 17px 34px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.social__icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social__icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin: 0 3px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 13px;
+  border: 2px solid var(--dark-color);
+  border-radius: 15%;
+}
+
+.social__icon:hover {
+  background-color: var(--dark-color);
+}
+
+.social__icon--twitter {
+  background-image: url("../images/twitter-dark.svg");
+}
+
+.social__icon--twitter:hover {
+  background-image: url("../images/twitter-light.svg");
+}
+
+.social__icon--instagram {
+  background-image: url("../images/instagram-dark.svg");
+}
+
+.social__icon--instagram:hover {
+  background-image: url("../images/instagram-light.svg");
+}
+
+.social__icon--linkedin {
+  background-image: url("../images/linkedin-dark.svg");
+}
+
+.social__icon--linkedin:hover {
+  background-image: url("../images/linkedin-light.svg");
+}
+
+.footer {
+  padding: 102px 0 20px;
+}
